@@ -1,11 +1,24 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  /* use here not on the body */
+}
+
+body {
   color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
 }
 
 h1,
@@ -41,7 +54,13 @@ p {
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
 }
+
+li:last-child {
+  margin-bottom: 0;
+}
+
 /* footer p {
   font-size: 16px;
 } */
@@ -71,17 +90,6 @@ li {
 .main-header {
   background-color: #f7f7f7;
 }
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-}
-
-/* body {
-  margin: 0;
-  padding: 0;
-} */
 
 li:first-child {
   font-weight: bold;
