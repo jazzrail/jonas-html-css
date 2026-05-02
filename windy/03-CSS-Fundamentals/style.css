@@ -14,6 +14,7 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 nav {
@@ -153,6 +154,18 @@ a:active {
   padding: 15px;
   border-radius: 15px;
 }
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+/* Width and height is already set in html.  
+This class over writes the width.
+Therefore, in this case, to keep the aspect ratio we have to set the height to auto.
+See in action in inspect element.
+
+
+*/
 
 /* Resolving conflicts */
 /* #copyright {
