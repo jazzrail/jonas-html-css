@@ -29,6 +29,7 @@ body {
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 
 article {
@@ -221,6 +222,14 @@ h2::after {
   top: -10px;
   right: -25px;
   line-height: 1;
+}
+
+.color-test {
+  /* background-color: #f7f3ee; */
+  /* background-color: #5b7c99; */
+  /* background-color: #3f5f73; */
+  /* background-color: #6f8fa3; */
+  /* color: #4f6d7a; */
 }
 /* Resolving conflicts */
 /* #copyright {
